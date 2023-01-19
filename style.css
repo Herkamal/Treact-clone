@@ -202,3 +202,42 @@ li{
   color: #7C8BA1;
   max-width: 550px;
 }
+
+.feature__package{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+  padding: 32px 8px;
+}
+
+.feature__img--container{
+    flex-shrink: 0;
+    border-radius: 9999px;
+    border-width: 1px;
+    padding: 1.25rem;
+    text-align: center; 
+}
+
+.feature__package--wrapper{
+  display: flex;
+  width: calc(100% / 3);
+}
+
+.feature__package--holder{
+  display: flex;
+  flex-direction: column;
+}
+
+.feature__h3{
+  font-size: 24px;
+  color: #243E63;
+  margin: 16px 0 0;
+  font-weight: bold;
+}
+
+.feature__p{
+  font-size: 16px;
+  margin: 16px 0 0;
+  line-height: 2;
+  color: #7C8BA1;
+}
