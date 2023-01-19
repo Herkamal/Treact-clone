@@ -90,7 +90,7 @@ li{
   background-color: #3d1a83;
 }
 
-.container{
+.nav__container{
   padding: 56px 0;
   
 }
@@ -168,4 +168,37 @@ li{
 .landing__right--img{
   margin: 16px 0 0;
   padding: 0 128px 0 0;
+}
+
+/* features */
+
+.feature__container{
+  margin: 0 167px;
+  padding: 96px 0;
+}
+
+.feature__description{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__span{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 16px;
+}
+
+.feature__description--title{
+  font-size: 48px;
+  color: #243E63;
+}
+
+.feature__description--para{
+  font-size: 18px;
+  margin: 16px 0 0;
+  color: #7C8BA1;
+  max-width: 550px;
 }
