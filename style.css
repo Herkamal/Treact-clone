@@ -95,6 +95,11 @@ li{
   
 }
 
+.container{
+  margin: 0 27px;
+  padding: 96px 0;
+}
+
 .row{
   max-width: 1200px;
   width: 100%;
@@ -240,4 +245,54 @@ li{
   margin: 16px 0 0;
   line-height: 2;
   color: #7C8BA1;
+}
+
+/* quality */
+
+.section__description{
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.section__description--wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.section__img--wrapper{
+  width: 50%;
+}
+
+.section__purple{
+  color: #6415ff;
+  font: 16px;
+  font-weight: bold;
+}
+
+.section__title{
+  font-size: 48px;
+  font-weight: bold;
+  margin: 16px 0 0;
+}
+
+.section__para{
+  font-size: 18px;
+  line-height: 1.625;
+  font-weight: 500;
+  color: #7C8BA1;
+  margin: 16px 0 0;
+}
+
+.section__button{
+  color: white;
+  font-size: 14px;
+  background-color: #6415ff;
+  border: none;
+  margin: 32px 0 0;
+  padding: 12px 32px;
+  border-radius: 9999px;
+  position: absolute;
+  bottom: 0px;
 }
