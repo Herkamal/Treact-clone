@@ -308,6 +308,7 @@ li{
 .section__package{
   display: flex;
   margin: 32px 0 0;
+  position: relative;
 }
 
 .section__light{
@@ -330,9 +331,30 @@ li{
 
 .section__p{
   font-size: 14px;
-  margin: 12px 0 0;
+  margin: 16px 0 0;
   color: #718096;
   font-weight: 500;
-  max-width: 20rem
-
+  max-width: 20rem;
+  line-height: 1.625;
 }
+
+/* values */
+
+.section__package1{
+  display: flex;
+  flex-direction: column;
+  margin: 32px 0 0;
+}
+
+.money{
+    background-color: rgb(154 230 180);
+    color: rgb(39 103 73);
+    border-radius: 9999px;
+}
+
+.bag{
+  background-color: rgb(254 178 178);
+  color: rgb(155 44 44);
+  border-radius: 9px;
+}
+
