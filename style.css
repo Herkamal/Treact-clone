@@ -6,6 +6,14 @@
   font-family: 'Inter', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+section{
+  height: 90vh;
+}
+
 nav{
   display: flex;
   height: 80px;
@@ -340,9 +348,14 @@ li{
 
 /* values */
 
-.section__package1{
+.section__description--value{
   display: flex;
-  flex-direction: column;
+  width: 100%;
+}
+
+
+.section__package{
+  display: flex;
   margin: 32px 0 0;
 }
 
@@ -358,3 +371,13 @@ li{
   border-radius: 9px;
 }
 
+.section__button1{
+  color: white;
+  font-size: 14px;
+  background-color: #6415ff;
+  border: none;
+  margin: 32px 0 0;
+  padding: 12px 32px;
+  border-radius: 9999px;
+  margin-right: auto;
+}
